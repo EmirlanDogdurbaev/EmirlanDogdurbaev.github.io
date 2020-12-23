@@ -497,7 +497,80 @@ li a {
 
 /* здесь начинается стилизация 3 страницы сайта */
 
-.third-container{
-    background-color: #6fb4ff;
-    height: 1000px;
+.third-container {
+  background-color: #6fb4ff;
+  height: 1000px;
+}
+
+.third-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.best-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.best-price h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+
+  color: #31546d;
+}
+
+.best-price h1 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  color: #31546d;
+}
+
+.best-price span {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+
+  color: blue;
+}
+
+.best-price span strong {
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: 0em;
+  text-align: right;
+
+  color: tomato;
+}
+
+.best-price p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+
+  max-width: 400px;
+  text-align: right;
+
+  margin-left: 200px;
+  color: #31546d;
+}
+
+.fouth-container {
+  padding-top: 50px;
+}
+
+.mini-container{
+    display: flex;
+ justify-content: flex-end;
+ align-items: center;
 }
