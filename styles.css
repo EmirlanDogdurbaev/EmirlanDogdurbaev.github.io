@@ -472,3 +472,12 @@ li a {
     font-weight: 400;
   }
 
+  .second-card span {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  
+    padding-bottom: 20px;
+  }
+
