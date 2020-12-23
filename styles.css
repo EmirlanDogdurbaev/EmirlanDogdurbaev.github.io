@@ -303,3 +303,15 @@ li a {
     font-weight: 500;
     line-height: 24px;
   }
+
+  /* здесь начинаються стилизация 2ой страницы сайта */
+
+.all-product {
+    background-color: white;
+    padding-top: 50px;
+  }
+  
+  .second-big-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
