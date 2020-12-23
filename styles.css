@@ -494,3 +494,10 @@ li a {
 
   padding: 5px 20px;
 }
+
+/* здесь начинается стилизация 3 страницы сайта */
+
+.third-container{
+    background-color: #6fb4ff;
+    height: 1000px;
+}
