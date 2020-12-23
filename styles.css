@@ -562,15 +562,22 @@ li a {
   text-align: right;
 
   margin-left: 200px;
+  padding-bottom: 15px;
   color: #31546d;
+}
+
+.buy a {
+  border: 1px solid black;
+  padding: 10px 15px;
+  text-align: center;
 }
 
 .fouth-container {
   padding-top: 50px;
 }
 
-.mini-container{
-    display: flex;
- justify-content: flex-end;
- align-items: center;
+.mini-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
