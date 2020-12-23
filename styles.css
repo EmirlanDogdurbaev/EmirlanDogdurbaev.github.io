@@ -371,113 +371,126 @@ li a {
 /* здесь начинается стилизации кард */
 
 .card-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 0;
-  
-    padding-top: 50px;
-    padding-bottom: 100px;
-  }
-  
-  .mini-card-conainer {
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-shrink: 0;
 
-  
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.mini-card-conainer {
+  display: flex;
+  flex-direction: column;
+}
+
 .first-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
-    flex-basis: 20%;
-  
-    border: 1px solid rgba(240, 232, 232, 0.8);
-    box-shadow: 0 0 10px rgba(240, 232, 232, 0.8);
-    border-radius: 30px;
-    background-color: white;
-  
-    padding-bottom: 15px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  
+  flex-basis: 20%;
+
+  border: 1px solid rgba(240, 232, 232, 0.8);
+  box-shadow: 0 0 10px rgba(240, 232, 232, 0.8);
+  border-radius: 30px;
+  background-color: white;
+
+  padding-bottom: 15px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .first-card p {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-  }
-  
-  .first-card span {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-  
-    padding-bottom: 20px;
-  }
-  
-  .card-button {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-  
-    border: 1px solid darkgrey;
-    border-radius: 8px;
-  
-    color: white;
-    background-color: blue;
-  
-    padding: 5px 20px;
-    background: linear-gradient(90deg, #75cceb 0%, #6fb4ff 100%);
-    box-shadow: 0px 10px 25px rgba(112, 184, 251, 0.45);
-    border-radius: 18px;
-  }
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
 
-  .second-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
-    flex-basis: 20%;
-  
-    border: 1px solid rgba(240, 232, 232, 0.8);
-    box-shadow: 0 0 10px rgba(240, 232, 232, 0.8);
-    border-radius: 30px;
-    background-color: white;
-  
-    padding-bottom: 15px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+.first-card span {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
 
-  
+  padding-bottom: 20px;
+}
+
+.card-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+
+  border: 1px solid darkgrey;
+  border-radius: 8px;
+
+  color: white;
+  background-color: blue;
+
+  padding: 5px 20px;
+  background: linear-gradient(90deg, #75cceb 0%, #6fb4ff 100%);
+  box-shadow: 0px 10px 25px rgba(112, 184, 251, 0.45);
+  border-radius: 18px;
+}
+
+.second-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex-basis: 20%;
+
+  border: 1px solid rgba(240, 232, 232, 0.8);
+  box-shadow: 0 0 10px rgba(240, 232, 232, 0.8);
+  border-radius: 30px;
+  background-color: white;
+
+  padding-bottom: 15px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .second-card img,
 .first-card img {
   padding-top: 20px;
 }
 
 .second-card p {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-  }
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
 
-  .second-card span {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-  
-    padding-bottom: 20px;
-  }
+.second-card span {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
 
+  padding-bottom: 20px;
+}
+
+.card-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  border-radius: 18px;
+  border: 1px solid #75cceb;
+
+  color: #75cceb;
+
+  padding: 5px 20px;
+}
