@@ -164,11 +164,24 @@ li a {
   
     margin-right: 25px;
   }
-  
+
   .transparent-link {
     color: rgb(11, 63, 11);
     font-family: Google Sans;
     font-size: 14px;
     font-style: normal;
     text-decoration: none;
+  }
+
+  /* здeсь начинается второй  контайнер в котором есть изображении*/
+
+.very-big-container {
+    background-color: white;
+    height: 554px;
+    width: 569px;
+    left: 821px;
+    top: 173px;
+    border-radius: 50px;
+  
+    display: flex;
   }
