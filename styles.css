@@ -465,3 +465,10 @@ li a {
   padding-top: 20px;
 }
 
+.second-card p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
