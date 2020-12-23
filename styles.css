@@ -147,204 +147,223 @@ li a {
 }
 
 .first-link-with-a-frame {
-    border: 1px solid white;
-    background-color: white;
-    border-radius: 15px;
-    color: rgb(11, 63, 11);
-  
-    text-decoration: none;
-    padding: 10px 25px;
-  
-    margin-right: 25px;
-  }
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 15px;
+  color: rgb(11, 63, 11);
 
-  .transparent-link {
-    color: rgb(11, 63, 11);
-    font-family: Google Sans;
-    font-size: 14px;
-    font-style: normal;
-    text-decoration: none;
-  }
+  text-decoration: none;
+  padding: 10px 25px;
 
-  /* здeсь начинается второй  контайнер в котором есть изображении*/
+  margin-right: 25px;
+}
 
-  .big-images {
-    background-color: white;
-    height: 554px;
-    width: 569px;
-    left: 821px;
-    top: 173px;
-    border-radius: 50px;
-  
-    display: flex;
-  }
-  
-  .big-img-container {
-    display: flex;
-  }
-  
-  .span-container {
-    margin-top: 100px;
-  }
-  
-  .new-lot {
-    color: white;
-    padding: 15px;
-  
-    background-color: violet;
-    border: 1px solid violet;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-  
-    font-family: Google Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-  }
-  
-  .img-container2 {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  
-    margin-top: 100px;
-  }
-  
-  #line {
-    width: 100px;
-    height: 1px;
-  
-    background-color: darkgrey;
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-  
-  .line-container {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  
-    margin: 0 auto;
-  }
-  .bottom-of-the-line {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-  
-    color: rgba(51, 51, 51, 0.8);
-  }
-  
-  .strong {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-  
-    color: black;
-  }
-  
-  .circle-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  
-    padding-top: 15px;
-  
-    background-color: rgb(5, 252, 219);
-  
-    max-width: 1200px;
-    margin-right: 250px;
-    margin-left: 0px;
-  }
-  
-  .first-circle {
-    height: 15px;
-    width: 15px;
-    background-color: blueviolet;
-    border-radius: 50%;
-  
-    margin-left: 10px;
-  }
-  
-  .second-circle {
-    height: 15px;
-    width: 15px;
-    border: 1px solid black;
-    background-color: white;
-    border-radius: 50%;
-  
-    margin-left: 10px;
-  }
-  
-  
-  
-  .mini-mouse {
-    display: flex;
-    justify-content: center;
-  
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: rgb(5, 252, 219);
-  }
-  
-  .mini-mouse-1 {
-    margin-left: 10px;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-  }
+.transparent-link {
+  color: rgb(11, 63, 11);
+  font-family: Google Sans;
+  font-size: 14px;
+  font-style: normal;
+  text-decoration: none;
+}
 
-  /* здесь начинаються стилизация 2ой страницы сайта */
+/* здeсь начинается второй  контайнер в котором есть изображении*/
+
+.big-images {
+  background-color: white;
+  height: 554px;
+  width: 569px;
+  left: 821px;
+  top: 173px;
+  border-radius: 50px;
+
+  display: flex;
+}
+
+.big-img-container {
+  display: flex;
+}
+
+.span-container {
+  margin-top: 100px;
+}
+
+.new-lot {
+  color: white;
+  padding: 15px;
+
+  background-color: violet;
+  border: 1px solid violet;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+
+  font-family: Google Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.img-container2 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  margin-top: 100px;
+}
+
+#line {
+  width: 100px;
+  height: 1px;
+
+  background-color: darkgrey;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.line-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  margin: 0 auto;
+}
+.bottom-of-the-line {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  color: rgba(51, 51, 51, 0.8);
+}
+
+.strong {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  color: black;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding-top: 15px;
+
+  background-color: rgb(5, 252, 219);
+
+  max-width: 1200px;
+  margin-right: 250px;
+  margin-left: 0px;
+}
+
+.first-circle {
+  height: 15px;
+  width: 15px;
+  background-color: blueviolet;
+  border-radius: 50%;
+
+  margin-left: 10px;
+}
+
+.second-circle {
+  height: 15px;
+  width: 15px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 50%;
+
+  margin-left: 10px;
+}
+
+.mini-mouse {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(5, 252, 219);
+}
+
+.mini-mouse-1 {
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/* здесь начинаються стилизация 2ой страницы сайта */
 
 .all-product {
-    background-color: white;
-    padding-top: 50px;
-  }
-  
-  .second-big-container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+  background-color: white;
+  padding-top: 50px;
+}
 
-  .all-product-big-container {
-    display: flex;
-    justify-content: center;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .all-product-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.second-big-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-  .all-product-container h1 {
-    font-family: "Roboto", sans-serif;
-    font-size: 46px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 50px;
-  }
-  
+.all-product-big-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-  
+.all-product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.all-product-container h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+
 .all-product-container span {
-    height: 4px;
-    width: 70px;
-    background-color: darkgrey;
-    margin: 0 auto;
-  
-    margin-top: 20px;
-    margin-left: 70px;
-  }
+  height: 4px;
+  width: 70px;
+  background-color: darkgrey;
+  margin: 0 auto;
+
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.filter {
+  display: flex;
+  padding-top: 50px;
+}
+
+.filter p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: darkgrey;
+}
+
+.filter strong {
+  color: black;
+}
+.first-filter {
+  margin-left: 50px;
+  margin-right: 100px;
+}
