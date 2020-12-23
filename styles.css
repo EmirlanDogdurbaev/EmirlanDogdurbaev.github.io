@@ -62,3 +62,20 @@ nav {
     font-weight: 400;
     color: white;
   }
+
+  nav ul {
+    display: flex;
+  }
+
+  li a {
+    margin-right: 70px;
+    color: white;
+    text-decoration: none;
+  
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+  }
