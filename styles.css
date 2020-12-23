@@ -7,6 +7,8 @@
 body {
   height: 10000px;
   margin: 0;
+
+  font-family: "Roboto", sans-serif;
 }
 
 
@@ -36,4 +38,27 @@ nav {
   
     margin: 0 auto;
     max-width: 1200px;
+  }
+
+  ul li {
+    display: inline-block;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  .logo-right {
+    margin-left: 100px;
+  }
+
+  
+.logo h4 {
+    margin: auto 0;
+  
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
   }
