@@ -88,3 +88,30 @@ li a {
     padding-top: 100px;
   }
   
+  .first-big-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .container-welcome {
+    display: flex;
+    flex-direction: column;
+  
+    margin-top: 100px;
+  }
+
+  .first-big-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .container-welcome {
+    display: flex;
+    flex-direction: column;
+  
+    margin-top: 100px;
+  }
