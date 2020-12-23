@@ -337,3 +337,14 @@ li a {
     line-height: 50px;
   }
   
+
+  
+.all-product-container span {
+    height: 4px;
+    width: 70px;
+    background-color: darkgrey;
+    margin: 0 auto;
+  
+    margin-top: 20px;
+    margin-left: 70px;
+  }
