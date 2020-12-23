@@ -11,7 +11,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-
 h1,
 h2,
 h3,
@@ -32,50 +31,60 @@ header {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    margin: 0 auto;
-    max-width: 1200px;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-  ul li {
-    display: inline-block;
-  }
+  margin: 0 auto;
+  max-width: 1200px;
+}
 
-  .logo {
-    display: flex;
-  }
+ul li {
+  display: inline-block;
+}
 
-  .logo-right {
-    margin-left: 100px;
-  }
+.logo {
+  display: flex;
+}
 
-  
+.logo-right {
+  margin-left: 100px;
+}
+
 .logo h4 {
-    margin: auto 0;
-  
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    color: white;
-  }
+  margin: auto 0;
 
-  nav ul {
-    display: flex;
-  }
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+}
 
-  li a {
-    margin-right: 70px;
-    color: white;
-    text-decoration: none;
-  
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 0em;
+nav ul {
+  display: flex;
+}
+
+li a {
+  margin-right: 70px;
+  color: white;
+  text-decoration: none;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+
+
+/* здесь заканчивается навигация */
+
+/* здесь начинается стилизация первых содержимыз сайта */
+
+.big-container {
+    background-color: rgb(5, 252, 219);
+    padding-top: 100px;
   }
+  
