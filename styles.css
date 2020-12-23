@@ -315,3 +315,25 @@ li a {
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  .all-product-big-container {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .all-product-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .all-product-container h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+  }
+  
