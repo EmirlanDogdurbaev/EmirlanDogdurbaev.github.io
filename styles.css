@@ -459,3 +459,9 @@ li a {
     margin-right: 10px;
   }
 
+  
+.second-card img,
+.first-card img {
+  padding-top: 20px;
+}
+
