@@ -78,61 +78,73 @@ li a {
   letter-spacing: 0em;
 }
 
-
 /* здесь заканчивается навигация */
 
 /* здесь начинается стилизация первых содержимыз сайта */
 
 .big-container {
-    background-color: rgb(5, 252, 219);
-    padding-top: 100px;
-  }
-  
-  .first-big-container {
-    display: flex;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .container-welcome {
-    display: flex;
-    flex-direction: column;
-  
-    margin-top: 100px;
-  }
+  background-color: rgb(5, 252, 219);
+  padding-top: 100px;
+}
 
-  .first-big-container {
-    display: flex;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .container-welcome {
-    display: flex;
-    flex-direction: column;
-  
-    margin-top: 100px;
-  }
-  #welcom {
+.first-big-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-welcome {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 100px;
+}
+
+.first-big-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-welcome {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 100px;
+}
+#welcom {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 65px;
+
+  color: white;
+}
+
+#pop {
+  font-family: "Roboto", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  margin-bottom: 30px;
+
+  color: white;
+}
+
+.here-you-will {
     font-family: "Roboto", sans-serif;
-    font-size: 40px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 65px;
-  
-    color: white;
-  }
-
-  #pop {
-    font-family: "Roboto", sans-serif;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 64px;
+    line-height: 24px;
     letter-spacing: 0em;
-    margin-bottom: 30px;
   
-    color: white;
+    max-width: 400px;
+  
+    color: rgb(11, 63, 11);
   }
