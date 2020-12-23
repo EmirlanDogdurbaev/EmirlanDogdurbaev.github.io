@@ -5,7 +5,6 @@
 }
 
 body {
-  height: 10000px;
   margin: 0;
 
   font-family: "Roboto", sans-serif;
@@ -499,7 +498,8 @@ li a {
 
 .third-container {
   background-color: #6fb4ff;
-  height: 1000px;
+
+  padding-top: 90px;
 }
 
 .third-page {
@@ -567,21 +567,39 @@ li a {
 }
 
 .buy a {
-  border: 1px solid blanchedalmond;
-  border-radius: 15px;
-  background-color: blanchedalmond;
-  padding: 10px 15px;
-  text-align: center;
-
-
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  
+    border-radius: 18px;
+    background-color: blanchedalmond;
+    border: 1px solid blanchedalmond;
+  
+    color: #75cceb;
+    padding: 10px 20px;
 }
 
 .fouth-container {
   padding-top: 50px;
+
+}
+
+.fouth-container img{
+    margin-bottom: 50px;
 }
 
 .mini-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+footer div{
+    height: 150px;
+    background: #0A294D 80%;
+
 }
