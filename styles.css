@@ -192,3 +192,19 @@ li a {
   .span-container {
     margin-top: 100px;
   }
+
+  .new-lot {
+    color: white;
+    padding: 15px;
+  
+    background-color: violet;
+    border: 1px solid violet;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  
+    font-family: Google Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
