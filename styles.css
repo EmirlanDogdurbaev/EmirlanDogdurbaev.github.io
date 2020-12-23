@@ -175,7 +175,7 @@ li a {
 
   /* здeсь начинается второй  контайнер в котором есть изображении*/
 
-.very-big-container {
+.img-container {
     background-color: white;
     height: 554px;
     width: 569px;
@@ -184,4 +184,11 @@ li a {
     border-radius: 50px;
   
     display: flex;
+  }
+  .big-img-container {
+    display: flex;
+  }
+
+  .span-container {
+    margin-top: 100px;
   }
