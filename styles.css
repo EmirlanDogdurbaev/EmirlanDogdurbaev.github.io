@@ -679,7 +679,6 @@ li a:hover {
 
   .first-big-container {
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
 
     max-width: 50%;
@@ -689,11 +688,42 @@ li a:hover {
   .column {
     display: none;
   }
-}
 
-/* av ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0;
-} n */
+  .all-product-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    margin: 0 auto;
+  }
+
+  .filter {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .third-page {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+    text-align: center;
+  }
+
+  .best-price {
+    text-align: center;
+  }
+
+  .mini-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .best-price p{
+    text-align: center;
+    margin-left: 70px;
+  }
+}
+  
