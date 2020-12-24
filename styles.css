@@ -26,7 +26,7 @@ a {
 
 /* здесь начинается навигация */
 header {
-  background-color: rgb(5, 252, 219);
+  background-color:#6fb4ff;
 }
 
 nav {
@@ -52,6 +52,7 @@ ul li {
 
 .logo h4 {
   margin: auto 0;
+  padding-left: 10px;
 
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -82,7 +83,7 @@ li a {
 /* здесь начинается стилизация первых содержимыз сайта */
 
 .big-container {
-  background-color: rgb(5, 252, 219);
+  background-color: #6fb4ff;
   padding-top: 100px;
 }
 
@@ -167,6 +168,12 @@ li a {
 
 /* здeсь начинается второй  контайнер в котором есть изображении*/
 
+.column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .big-images {
   background-color: white;
   height: 554px;
@@ -176,6 +183,7 @@ li a {
   border-radius: 50px;
 
   display: flex;
+  flex-direction: column;
 }
 
 .big-img-container {
@@ -202,13 +210,6 @@ li a {
   line-height: 24px;
 }
 
-.img-container2 {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-
-  margin-top: 100px;
-}
 
 #line {
   width: 100px;
@@ -216,7 +217,7 @@ li a {
 
   background-color: darkgrey;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-top:50px ;
 }
 
 .line-container {
@@ -224,7 +225,6 @@ li a {
   flex-direction: column;
   align-content: center;
 
-  margin: 0 auto;
 }
 .bottom-of-the-line {
   font-family: "Roboto", sans-serif;
@@ -236,6 +236,7 @@ li a {
   text-align: center;
 
   color: rgba(51, 51, 51, 0.8);
+  padding-top: 20px;
 }
 
 .strong {
@@ -257,11 +258,9 @@ li a {
 
   padding-top: 15px;
 
-  background-color: rgb(5, 252, 219);
+  background-color:#6fb4ff;
 
-  max-width: 1200px;
-  margin-right: 250px;
-  margin-left: 0px;
+ 
 }
 
 .first-circle {
@@ -283,13 +282,17 @@ li a {
   margin-left: 10px;
 }
 
+.second-circle.third{
+  margin-right: 10px;
+}
+
 .mini-mouse {
   display: flex;
   justify-content: center;
 
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: rgb(5, 252, 219);
+  background-color:#6fb4ff;
 }
 
 .mini-mouse-1 {
