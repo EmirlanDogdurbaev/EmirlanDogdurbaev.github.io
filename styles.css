@@ -704,10 +704,10 @@ li a:hover {
     margin: 0 auto;
   }
 
-  .first-card{
+  .first-card {
     text-align: center;
   }
-  .second-card{
+  .second-card {
     text-align: center;
   }
 
@@ -729,9 +729,8 @@ li a:hover {
     justify-content: center;
   }
 
-  .best-price p{
+  .best-price p {
     text-align: center;
     margin-left: 70px;
   }
 }
-  
