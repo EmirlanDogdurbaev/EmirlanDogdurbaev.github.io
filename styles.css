@@ -27,6 +27,7 @@ a {
 /* здесь начинается навигация */
 header {
   background-color: #6fb4ff;
+  padding-top: 20px;
 }
 
 nav {
