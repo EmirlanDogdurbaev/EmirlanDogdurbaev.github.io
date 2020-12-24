@@ -704,6 +704,13 @@ li a:hover {
     margin: 0 auto;
   }
 
+  .first-card{
+    text-align: center;
+  }
+  .second-card{
+    text-align: center;
+  }
+
   .third-page {
     display: flex;
     flex-direction: column;
