@@ -26,7 +26,7 @@ a {
 
 /* здесь начинается навигация */
 header {
-  background-color:#6fb4ff;
+  background-color: #6fb4ff;
 }
 
 nav {
@@ -168,7 +168,7 @@ li a {
 
 /* здeсь начинается второй  контайнер в котором есть изображении*/
 
-.column{
+.column {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -210,21 +210,19 @@ li a {
   line-height: 24px;
 }
 
-
 #line {
   width: 100px;
   height: 1px;
 
   background-color: darkgrey;
   margin: 0 auto;
-  margin-top:50px ;
+  margin-top: 50px;
 }
 
 .line-container {
   display: flex;
   flex-direction: column;
   align-content: center;
-
 }
 .bottom-of-the-line {
   font-family: "Roboto", sans-serif;
@@ -258,9 +256,7 @@ li a {
 
   padding-top: 15px;
 
-  background-color:#6fb4ff;
-
- 
+  background-color: #6fb4ff;
 }
 
 .first-circle {
@@ -282,7 +278,7 @@ li a {
   margin-left: 10px;
 }
 
-.second-circle.third{
+.second-circle.third {
   margin-right: 10px;
 }
 
@@ -292,7 +288,7 @@ li a {
 
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color:#6fb4ff;
+  background-color: #6fb4ff;
 }
 
 .mini-mouse-1 {
@@ -441,6 +437,15 @@ li a {
   border-radius: 18px;
 }
 
+.card-button::after{
+  border: 1px solid darkgrey;
+  border-radius: 8px;
+
+  color:blue;
+  background-color: white;
+
+}
+
 .second-card {
   display: flex;
   flex-direction: column;
@@ -570,29 +575,28 @@ li a {
 }
 
 .buy a {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-  
-    border-radius: 18px;
-    background-color: blanchedalmond;
-    border: 1px solid blanchedalmond;
-  
-    color: #75cceb;
-    padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  border-radius: 18px;
+  background-color: blanchedalmond;
+  border: 1px solid blanchedalmond;
+
+  color: #75cceb;
+  padding: 10px 20px;
 }
 
 .fouth-container {
   padding-top: 50px;
-
 }
 
-.fouth-container img{
-    margin-bottom: 50px;
+.fouth-container img {
+  margin-bottom: 50px;
 }
 
 .mini-container {
@@ -601,8 +605,18 @@ li a {
   align-items: center;
 }
 
-footer div{
-    height: 150px;
-    background: #0A294D 80%;
-
+footer div {
+  height: 150px;
+  background: #0a294d 80%;
 }
+
+
+a:hover{
+  background-color: #6fb4ff;
+  color: white;
+}
+
+li a:hover{
+text-decoration: underline;
+}
+
