@@ -673,6 +673,16 @@ li a:hover {
     display: flex;
     flex-direction: column;
     padding-top: 10px;
+    text-align: center;
+  }
+
+  .container-welcome{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+.here-you-will{
+    text-align: center;
   }
   .big-container {
     padding-top: 0px;
@@ -722,6 +732,8 @@ li a:hover {
 
   .best-price {
     text-align: center;
+    
+
   }
 
   .mini-container {
@@ -732,5 +744,8 @@ li a:hover {
   .best-price p {
     text-align: center;
     margin-left: 70px;
+    margin-right: 70px;
+    flex-direction: column;
+    align-items: center;
   }
 }
