@@ -1,13 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;600&family=Playfair+Display&family=Roboto&display=swap");
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-
-  font-family: "Roboto", sans-serif;
+  font-family: "Catamaran", sans-serif;
 }
 
 h1,
@@ -40,6 +38,8 @@ nav {
 
   margin: 0 auto;
   max-width: 1200px;
+  padding-left: 20px;
+ 
 }
 
 ul li {
@@ -58,7 +58,7 @@ ul li {
   margin: auto 0;
   padding-left: 10px;
 
-  font-family: "Roboto", sans-serif;
+ 
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -74,7 +74,7 @@ li a {
   color: white;
   text-decoration: none;
 
-  font-family: "Roboto", sans-serif;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -88,6 +88,8 @@ li a {
 
 .big-container {
   padding-top: 100px;
+  padding-left: 30px;
+ 
 }
 
 .first-big-container {
@@ -102,6 +104,7 @@ li a {
   flex-direction: column;
 
   margin-top: 100px;
+  padding-right: 5px;
 }
 
 .container-welcome {
@@ -111,7 +114,7 @@ li a {
   margin-top: 100px;
 }
 #welcom {
-  font-family: "Roboto", sans-serif;
+  
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -121,7 +124,7 @@ li a {
 }
 
 #pop {
-  font-family: "Roboto", sans-serif;
+ 
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -133,7 +136,7 @@ li a {
 }
 
 .here-you-will {
-  font-family: "Roboto", sans-serif;
+  
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -197,13 +200,12 @@ li a {
   margin-top: 100px;
 }
 
-#img1{
+#img1 {
   padding-top: 80px;
 }
 
-.new-lot {
+#new-lot {
   color: white;
-  padding: 10px 20p;
 
   border: 1px solid #8a93e6;
   border-bottom-right-radius: 10px;
@@ -216,6 +218,7 @@ li a {
   font-style: normal;
   font-weight: 300;
   line-height: 24px;
+  padding: 10px 20px;
 }
 
 #line {
@@ -233,7 +236,7 @@ li a {
   align-content: center;
 }
 .bottom-of-the-line {
-  font-family: "Roboto", sans-serif;
+
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -246,7 +249,7 @@ li a {
 }
 
 .strong {
-  font-family: "Roboto", sans-serif;
+  
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -298,7 +301,6 @@ li a {
 
 .mini-mouse-1 {
   margin-left: 10px;
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -331,7 +333,7 @@ li a {
 }
 
 .all-product-container h1 {
-  font-family: "Roboto", sans-serif;
+
   font-size: 46px;
   font-style: normal;
   font-weight: 700;
@@ -354,7 +356,6 @@ li a {
 }
 
 .filter p {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -408,14 +409,12 @@ li a {
 }
 
 .first-card p {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
 }
 
 .first-card span {
-  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -424,7 +423,6 @@ li a {
 }
 
 .card-button {
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -474,14 +472,12 @@ li a {
 }
 
 .second-card p {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
 }
 
 .second-card span {
-  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -490,7 +486,6 @@ li a {
 }
 
 .card-btn {
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -526,19 +521,25 @@ li a {
   text-align: right;
 }
 
-.best-price h2 {
+.best-price h3 {
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
 
   color: #31546d;
+  padding: 0;
 }
 
-.best-price h1 {
+.best-price h2 {
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
   color: #31546d;
+}
+
+.mini-container {
+  display: flex;
+  align-items: baseline;
 }
 
 .best-price span {
@@ -550,6 +551,11 @@ li a {
   text-align: right;
 
   color: blue;
+  font-family: 'Roboto', sans-serif;
+}
+
+.mini-container del{
+  padding-bottom: 50px;
 }
 
 .best-price span strong {
@@ -578,7 +584,6 @@ li a {
 }
 
 .buy a {
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -662,6 +667,11 @@ li a:hover {
     margin-right: 0px;
     padding-right: 0px;
   }
+  .big-container {
+    padding-top: 0px;
+    padding-left: 30px;
+  
+  }
 }
 
 @media screen and (max-width: 960px) {
@@ -689,6 +699,8 @@ li a:hover {
   }
   .big-container {
     padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .first-big-container {
