@@ -24,9 +24,12 @@ a {
   text-decoration: none;
 }
 
+.bac-img {
+  background-image: url(./images/background-img.png);
+}
+
 /* здесь начинается навигация */
 header {
-  background-color: #6fb4ff;
   padding-top: 20px;
 }
 
@@ -84,7 +87,6 @@ li a {
 /* здесь начинается стилизация первых содержимыз сайта */
 
 .big-container {
-  background-color: #6fb4ff;
   padding-top: 100px;
 }
 
@@ -195,19 +197,24 @@ li a {
   margin-top: 100px;
 }
 
+#img1{
+  padding-top: 80px;
+}
+
 .new-lot {
   color: white;
-  padding: 15px;
+  padding: 10px 20p;
 
-  background-color: violet;
-  border: 1px solid violet;
+  border: 1px solid #8a93e6;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 
-  font-family: Google Sans;
+  background: #8a93e6;
+  border-radius: 0px 8px 8px 0px;
+
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 24px;
 }
 
@@ -256,8 +263,6 @@ li a {
   align-items: center;
 
   padding-top: 15px;
-
-  background-color: #6fb4ff;
 }
 
 .first-circle {
@@ -289,7 +294,6 @@ li a {
 
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #6fb4ff;
 }
 
 .mini-mouse-1 {
@@ -505,8 +509,7 @@ li a {
 /* здесь начинается стилизация 3 страницы сайта */
 
 .third-container {
-  background-color: #6fb4ff;
-
+  background-image: url(./images/background-img.png);
   padding-top: 90px;
 }
 
@@ -676,12 +679,12 @@ li a:hover {
     text-align: center;
   }
 
-  .container-welcome{
+  .container-welcome {
     text-align: center;
     flex-direction: column;
     align-items: center;
   }
-.here-you-will{
+  .here-you-will {
     text-align: center;
   }
   .big-container {
@@ -732,8 +735,6 @@ li a:hover {
 
   .best-price {
     text-align: center;
-    
-
   }
 
   .mini-container {
