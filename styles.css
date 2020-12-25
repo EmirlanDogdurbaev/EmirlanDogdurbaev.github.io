@@ -38,8 +38,7 @@ nav {
 
   margin: 0 auto;
   max-width: 1200px;
-  padding-left: 20px;
- 
+  padding-left: 10px;
 }
 
 ul li {
@@ -58,7 +57,6 @@ ul li {
   margin: auto 0;
   padding-left: 10px;
 
- 
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -74,7 +72,6 @@ li a {
   color: white;
   text-decoration: none;
 
-
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -89,7 +86,6 @@ li a {
 .big-container {
   padding-top: 100px;
   padding-left: 30px;
- 
 }
 
 .first-big-container {
@@ -104,7 +100,6 @@ li a {
   flex-direction: column;
 
   margin-top: 100px;
-  padding-right: 5px;
 }
 
 .container-welcome {
@@ -114,7 +109,6 @@ li a {
   margin-top: 100px;
 }
 #welcom {
-  
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -124,19 +118,17 @@ li a {
 }
 
 #pop {
- 
-  font-size: 64px;
+  font-size: 62px;
   font-style: normal;
   font-weight: 700;
   line-height: 64px;
   letter-spacing: 0em;
   margin-bottom: 30px;
-
+  padding-right: 5px;
   color: white;
 }
 
 .here-you-will {
-  
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -187,7 +179,7 @@ li a {
   left: 821px;
   top: 173px;
   border-radius: 50px;
-
+  width: 500px;
   display: flex;
   flex-direction: column;
 }
@@ -202,6 +194,7 @@ li a {
 
 #img1 {
   padding-top: 80px;
+  padding-right: 30px;
 }
 
 #new-lot {
@@ -236,7 +229,6 @@ li a {
   align-content: center;
 }
 .bottom-of-the-line {
-
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -249,7 +241,6 @@ li a {
 }
 
 .strong {
-  
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -333,7 +324,6 @@ li a {
 }
 
 .all-product-container h1 {
-
   font-size: 46px;
   font-style: normal;
   font-weight: 700;
@@ -501,6 +491,10 @@ li a {
   padding: 5px 20px;
 }
 
+.first-card strong, .second-card strong{
+  font-family: "Roboto", sans-serif;
+}
+
 /* здесь начинается стилизация 3 страницы сайта */
 
 .third-container {
@@ -551,10 +545,10 @@ li a {
   text-align: right;
 
   color: blue;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.mini-container del{
+.mini-container del {
   padding-bottom: 50px;
 }
 
@@ -670,11 +664,14 @@ li a:hover {
   .big-container {
     padding-top: 0px;
     padding-left: 30px;
-  
   }
 }
 
 @media screen and (max-width: 960px) {
+  .bac-img {
+    background-image: none;
+    background-color: #6fb4ff;
+  }
   nav {
     display: flex;
     flex-direction: column;
@@ -693,6 +690,7 @@ li a:hover {
     text-align: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
   }
   .here-you-will {
     text-align: center;
@@ -706,12 +704,48 @@ li a:hover {
   .first-big-container {
     display: flex;
     align-items: center;
+    flex-direction: column;
 
     max-width: 50%;
     max-width: 100%;
   }
 
   .column {
+    padding-top: 30px;
+
+    width: 200px;
+  }
+  .big-images {
+    width: 300px;
+    height: 280px;
+    padding-bottom: 50px;
+  }
+  .big-img-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    background-color: none;
+    height: 400px;
+  }
+  .here-you-will {
+    padding-bottom: 0;
+  }
+
+  .line-container {
+    display: none;
+  }
+
+  .circle-container {
+    display: none;
+  }
+
+  #img1 {
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+  }
+  .span-container {
     display: none;
   }
 
@@ -725,8 +759,8 @@ li a:hover {
 
   .filter {
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    justify-content: space-evenly;
+    
   }
 
   .first-card {
@@ -734,6 +768,10 @@ li a:hover {
   }
   .second-card {
     text-align: center;
+  }
+
+  .first-card strong, .second-card strong{
+    font-family: "Roboto", sans-serif;
   }
 
   .third-page {
