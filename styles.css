@@ -14,7 +14,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul {
   margin: 0;
   padding: 0;
 }
@@ -24,6 +25,10 @@ a {
 
 .bac-img {
   background-image: url(./images/background-img.png);
+}
+.first-cont {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* здесь начинается навигация */
@@ -36,13 +41,13 @@ nav {
   justify-content: space-between;
   align-items: center;
 
+  max-width: 1215px;
   margin: 0 auto;
-  max-width: 1200px;
-  padding-left: 10px;
 }
 
 ul li {
   display: inline-block;
+  padding: 0;
 }
 
 .logo {
@@ -85,14 +90,13 @@ li a {
 
 .big-container {
   padding-top: 100px;
-  padding-left: 30px;
 }
 
 .first-big-container {
   display: flex;
   justify-content: space-around;
-  max-width: 1200px;
-  margin: 0 auto;
+  /* max-width: 1200px;
+  margin: 0 auto; */
 }
 
 .container-welcome {
@@ -491,7 +495,8 @@ li a {
   padding: 5px 20px;
 }
 
-.first-card strong, .second-card strong{
+.first-card strong,
+.second-card strong {
   font-family: "Roboto", sans-serif;
 }
 
@@ -621,15 +626,16 @@ li a:hover {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   header {
-    padding-right: 0px;
+    padding-left: 30px;
   }
   nav {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-left: 30px;
   }
 
   nav ul {
@@ -640,6 +646,55 @@ li a:hover {
 
   ul li {
     display: inline-block;
+    padding: 0;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .logo-right {
+    display: none;
+  }
+  li a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  li a:first-child() {
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .big-container {
+    padding-top: 0px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  header {
+    margin: 0px auto;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+
+  ul li {
+    display: inline-block;
+    padding: 0;
   }
 
   .logo {
@@ -668,6 +723,9 @@ li a:hover {
 }
 
 @media screen and (max-width: 960px) {
+  header {
+    padding-left: 30px;
+  }
   .bac-img {
     background-image: none;
     background-color: #6fb4ff;
@@ -677,6 +735,8 @@ li a:hover {
     flex-direction: column;
     align-items: center;
     align-content: center;
+
+    padding: 30px;
   }
 
   .first-cont {
@@ -712,7 +772,7 @@ li a:hover {
 
   .column {
     padding-top: 30px;
-
+    padding-right: 10px;
     width: 200px;
   }
   .big-images {
@@ -760,7 +820,6 @@ li a:hover {
   .filter {
     display: flex;
     justify-content: space-evenly;
-    
   }
 
   .first-card {
@@ -770,7 +829,8 @@ li a:hover {
     text-align: center;
   }
 
-  .first-card strong, .second-card strong{
+  .first-card strong,
+  .second-card strong {
     font-family: "Roboto", sans-serif;
   }
 
