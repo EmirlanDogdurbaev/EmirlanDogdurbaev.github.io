@@ -912,6 +912,7 @@ li a:hover {
     display: flex;
     flex-direction: column;
     align-content: center;
+    align-items: center;
   }
 
   .filter {
@@ -937,6 +938,7 @@ li a:hover {
   }
   .best-price {
     text-align: center;
+    width: 340px;
   }
 
   .mini-container {
@@ -950,5 +952,6 @@ li a:hover {
     flex-direction: column;
     align-content: center;
     align-items: center;
+    
   }
 }
