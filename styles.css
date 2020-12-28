@@ -97,8 +97,6 @@ li a {
 .first-big-container {
   display: flex;
   justify-content: space-around;
-  /* max-width: 1200px;
-  margin: 0 auto; */
 }
 
 .container-welcome {
@@ -188,6 +186,7 @@ li a {
   width: 500px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 0 10px rgba(151, 136, 136, 0.8);
 }
 
 .big-img-container {
@@ -550,11 +549,10 @@ li a {
   padding: 0;
 }
 
-.del del{
+.del del {
   padding-bottom: 0;
   padding-right: 10px;
 }
-
 
 .best-price span {
   font-size: 24px;
@@ -567,7 +565,6 @@ li a {
   color: blue;
   font-family: "Roboto", sans-serif;
 }
-
 
 .best-price span strong {
   font-size: 70px;
@@ -702,7 +699,7 @@ li a:hover {
     align-items: center;
   }
 
-  .logo h4{
+  .logo h4 {
     padding: 0;
   }
 
@@ -749,11 +746,11 @@ li a:hover {
     padding-top: 0px;
   }
 
-  .span-container{
-   display: none;
+  .span-container {
+    display: none;
   }
 
-  .line-container{
+  .line-container {
     display: none;
   }
 
@@ -773,10 +770,9 @@ li a:hover {
     align-content: center;
     text-align: center;
     height: 250px;
-
   }
 
-  .column{
+  .column {
     margin-top: 20px;
     height: 350px;
     width: 350px;
@@ -787,7 +783,7 @@ li a:hover {
     height: 350px;
   }
 
-  .mini-mouse{
+  .mini-mouse {
     padding: 0;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -812,7 +808,6 @@ li a:hover {
     text-align: center;
   }
 
-
   .third-page {
     display: flex;
     flex-direction: column;
@@ -825,6 +820,120 @@ li a:hover {
   .third-page img {
     width: 380px;
     margin-bottom: 0;
+  }
+  .best-price {
+    text-align: center;
+  }
+
+  .mini-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .best-price p {
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+  .first-cont {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(./images/vertical-background-img.png);
+  }
+
+  .container-welcome {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .here-you-will {
+    text-align: center;
+  }
+  .big-container {
+    padding-top: 0px;
+  }
+
+  .span-container {
+    display: none;
+  }
+
+  .line-container {
+    display: none;
+  }
+
+  .first-big-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .big-images {
+    width: 400px;
+  }
+
+  .big-img-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    height: 250px;
+  }
+
+  .column {
+    display: none;
+  }
+  .third-page img {
+    width: 300px;
+    margin-bottom: 0;
+  }
+
+  .mini-mouse {
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .all-product-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .filter {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+  }
+
+  .first-card {
+    text-align: center;
+  }
+  .second-card {
+    text-align: center;
+  }
+
+  .third-page {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+    text-align: center;
   }
   .best-price {
     text-align: center;
