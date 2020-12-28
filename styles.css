@@ -391,7 +391,7 @@ li a {
   align-items: center;
   text-align: center;
 
-  flex-basis: calc(20% - 30px);
+  flex-basis:20%;
 
   border: 1px solid rgba(240, 232, 232, 0.8);
   box-shadow: 0 0 10px rgba(240, 232, 232, 0.8);
@@ -450,7 +450,7 @@ li a {
   align-items: center;
   text-align: center;
 
-  flex-basis: calc(20% - 30px);
+  flex-basis: 20%;
 
   border: 1px solid rgba(240, 232, 232, 0.8);
   box-shadow: 0 0 10px rgba(240, 232, 232, 0.8);
