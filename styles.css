@@ -717,6 +717,14 @@ li a:hover {
     margin-right: 0px;
     padding-right: 0px;
   }
+  .first-card {
+    text-align: center;
+    margin-left: 20px;
+  }
+  .second-card {
+    text-align: center;
+    margin-left: 20px;
+  }
 }
 
 @media screen and (max-width: 960px) {
@@ -805,9 +813,11 @@ li a:hover {
 
   .first-card {
     text-align: center;
+    margin-left: 20px;
   }
   .second-card {
     text-align: center;
+    margin-left: 20px;
   }
 
   .third-page {
