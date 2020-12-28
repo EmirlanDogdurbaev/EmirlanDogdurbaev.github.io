@@ -96,20 +96,11 @@ li a {
 
 .first-big-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0;
 }
-
-.container-welcome {
-  display: flex;
-  flex-direction: column;
-
-  margin-top: 100px;
-  padding: 0;
-}
-
 .container-welcome {
   display: flex;
   flex-direction: column;
@@ -128,7 +119,7 @@ li a {
 }
 
 #pop {
-  font-size: 62px;
+  font-size: 60px;
   font-style: normal;
   font-weight: 700;
   line-height: 64px;
@@ -609,11 +600,12 @@ li a {
   letter-spacing: 0em;
   text-align: center;
 
-  border-radius: 18px;
-  background-color: blanchedalmond;
-  border: 1px solid blanchedalmond;
+  border-radius: 10px;
+  background-color: #75cceb;
+  border: 1px solid  #75cceb;
+  box-shadow: rgba(184, 173, 173, 0.8);
 
-  color: #75cceb;
+  color: white;
   padding: 10px 20px;
 }
 
