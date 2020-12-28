@@ -99,6 +99,7 @@ li a {
   justify-content: space-around;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .container-welcome {
@@ -106,6 +107,7 @@ li a {
   flex-direction: column;
 
   margin-top: 100px;
+  padding: 0;
 }
 
 .container-welcome {
@@ -121,6 +123,7 @@ li a {
   line-height: 65px;
 
   color: white;
+  padding-right: 0;
 }
 
 #pop {
@@ -132,6 +135,7 @@ li a {
   margin-bottom: 30px;
   padding-right: 5px;
   color: white;
+  padding-right: 0;
 }
 
 .here-you-will {
@@ -144,6 +148,7 @@ li a {
   max-width: 400px;
 
   color: rgb(11, 63, 11);
+  padding-right: 0;
 }
 
 .the-first-link {
@@ -185,7 +190,6 @@ li a {
   left: 821px;
   top: 173px;
   border-radius: 50px;
-  width: 500px;
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 10px rgba(151, 136, 136, 0.8);
