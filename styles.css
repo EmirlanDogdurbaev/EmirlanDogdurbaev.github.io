@@ -954,4 +954,8 @@ li a:hover {
     align-items: center;
     
   }
+
+  footer div{
+    height: 80px;
+  }
 }
