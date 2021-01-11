@@ -1,7 +1,7 @@
 @font-face {
   src:url(./GoogleSans-Regular.ttf);
 }
-@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;600&family=Playfair+Display&family=Roboto&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -24,7 +24,6 @@ ul {
 }
 a {
   text-decoration: none;
-  font-family: "GoogleSans-Medium";
 }
 
 .bac-img {
@@ -503,12 +502,6 @@ li a {
   padding: 5px 20px;
 }
 
-.first-card strong,
-.second-card strong,
-.strong {
-  font-family: "GoogleSans-Medium";
-}
-
 /* здесь начинается стилизация 3 страницы сайта */
 
 .third-container {
@@ -568,7 +561,7 @@ li a {
   text-align: right;
 
   color: blue;
-  font-family:'GoogleSans-Medium';
+  /* font-family:'GoogleSans-Medium'; */
 }
 
 .best-price span strong {
