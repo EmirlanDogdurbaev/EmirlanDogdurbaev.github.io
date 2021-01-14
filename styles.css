@@ -9,6 +9,7 @@
 body {
   margin: 0;
   font-family: 'GoogleSans-Regular';
+  color: #317189;
 }
 
 h1,
@@ -141,8 +142,7 @@ li a {
   letter-spacing: 0em;
 
   max-width: 400px;
-
-  color: rgb(11, 63, 11);
+color: #317189;
   padding-right: 0;
 }
 
@@ -154,7 +154,7 @@ li a {
   border: 1px solid white;
   background-color: white;
   border-radius: 15px;
-  color: rgb(11, 63, 11);
+  color:#317189;
 
   text-decoration: none;
   padding: 10px 25px;
@@ -163,7 +163,7 @@ li a {
 }
 
 .transparent-link {
-  color: rgb(11, 63, 11);
+  color:#317189;
   font-family: Google Sans;
   font-size: 14px;
   font-style: normal;
@@ -336,12 +336,14 @@ li a {
   font-style: normal;
   font-weight: 700;
   line-height: 50px;
+  color: #31546D;
+
 }
 
 .all-product-container span {
   height: 4px;
   width: 70px;
-  background-color: darkgrey;
+  background: #F2F2F2;
   margin: 0 auto;
 
   margin-top: 20px;
@@ -359,15 +361,18 @@ li a {
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0em;
-  color: darkgrey;
+  color: #9AB0C0;
+  ;
 }
 
 .filter strong {
-  color: black;
+  color: #31546D;
 }
 .first-filter {
   margin-left: 50px;
   margin-right: 100px;
+  color:#9AB0C0;
+  ;
 }
 
 /* здесь начинается стилизации кард */
@@ -901,8 +906,12 @@ li a:hover {
 
   .filter {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     margin: 0 auto;
+  }
+  
+  .first-filter{
+    margin: 0;
   }
 
   .first-card {
@@ -943,6 +952,10 @@ li a:hover {
     align-content: center;
     align-items: center;
   }
+}
+
+div{
+  color: ;
 }
 
 @media screen and (max-width: 460px) {
@@ -1023,15 +1036,18 @@ li a:hover {
 
   .filter {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     margin: 0 auto;
   }
 
-  .first-card {
+  .first-card,  .second-card {
     text-align: center;
   }
-  .second-card {
-    text-align: center;
+  
+  .first-card, .second-card{
+    margin: 0;
+    padding: 20px 60px ;
+    margin-bottom: 5px;
   }
 
   .third-page {
