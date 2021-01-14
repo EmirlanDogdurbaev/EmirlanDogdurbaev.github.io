@@ -1,5 +1,5 @@
 @font-face {
-  src:url(./GoogleSans-Regular.ttf);
+  src: url(./GoogleSans-Regular.ttf);
 }
 
 * {
@@ -8,7 +8,7 @@
 
 body {
   margin: 0;
-  font-family: 'GoogleSans-Regular';
+  font-family: "GoogleSans-Regular";
   color: #317189;
 }
 
@@ -142,7 +142,7 @@ li a {
   letter-spacing: 0em;
 
   max-width: 400px;
-color: #317189;
+  color: #317189;
   padding-right: 0;
 }
 
@@ -154,7 +154,7 @@ color: #317189;
   border: 1px solid white;
   background-color: white;
   border-radius: 15px;
-  color:#317189;
+  color: #317189;
 
   text-decoration: none;
   padding: 10px 25px;
@@ -163,7 +163,7 @@ color: #317189;
 }
 
 .transparent-link {
-  color:#317189;
+  color: #317189;
   font-family: Google Sans;
   font-size: 14px;
   font-style: normal;
@@ -336,14 +336,13 @@ color: #317189;
   font-style: normal;
   font-weight: 700;
   line-height: 50px;
-  color: #31546D;
-
+  color: #31546d;
 }
 
 .all-product-container span {
   height: 4px;
   width: 70px;
-  background: #F2F2F2;
+  background: #f2f2f2;
   margin: 0 auto;
 
   margin-top: 20px;
@@ -361,18 +360,16 @@ color: #317189;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0em;
-  color: #9AB0C0;
-  ;
+  color: #9ab0c0;
 }
 
 .filter strong {
-  color: #31546D;
+  color: #31546d;
 }
 .first-filter {
   margin-left: 50px;
   margin-right: 100px;
-  color:#9AB0C0;
-  ;
+  color: #9ab0c0;
 }
 
 /* здесь начинается стилизации кард */
@@ -432,12 +429,10 @@ color: #317189;
   font-weight: 700;
   line-height: 24px;
 
-  border: 1px solid darkgrey;
+  border: 3px solid #75cceb;
   border-radius: 8px;
 
   color: white;
-  background-color: blue;
-
   padding: 5px 20px;
   background: linear-gradient(90deg, #75cceb 0%, #6fb4ff 100%);
   box-shadow: 0px 10px 25px rgba(112, 184, 251, 0.45);
@@ -445,11 +440,25 @@ color: #317189;
 }
 
 .card-button::after {
-  border: 1px solid darkgrey;
+  border: 3px solid linear-gradient(90deg, #75cceb 0%, #6fb4ff 100%);
   border-radius: 8px;
 
-  color: blue;
-  background-color: white;
+  background: white;
+  padding: 5px 20px;
+  color: linear-gradient(90deg, #75cceb 0%, #6fb4ff 100%);
+  box-shadow: 0px 10px 25px rgba(112, 184, 251, 0.45);
+  border-radius: 8px;
+}
+.card-button:hover {
+  border-color:  #75cceb;
+  border-style: solid;
+  border-radius: 8px;
+
+  background: white;
+  padding: 5px 20px;
+  color: #75cceb;
+  box-shadow: 0px 10px 25px rgba(112, 184, 251, 0.45);
+  border-radius: 8px;
 }
 
 .second-card {
@@ -500,11 +509,18 @@ color: #317189;
 
   box-shadow: 0px 10px 25px rgba(194, 203, 212, 0.45);
   border-radius: 8px;
-  border: 1px solid #75cceb;
+  border: 3px solid #75cceb;
 
   color: #75cceb;
 
   padding: 5px 20px;
+}
+
+.card-btn:hover{
+  border-radius: 8px;
+  border: 3px solid #75cceb;
+background-color: #75cceb;
+  color: white;
 }
 
 /* здесь начинается стилизация 3 страницы сайта */
@@ -909,8 +925,8 @@ li a:hover {
     justify-content: space-around;
     margin: 0 auto;
   }
-  
-  .first-filter{
+
+  .first-filter {
     margin: 0;
   }
 
@@ -954,7 +970,7 @@ li a:hover {
   }
 }
 
-div{
+div {
   color: ;
 }
 
@@ -1040,13 +1056,15 @@ div{
     margin: 0 auto;
   }
 
-  .first-card,  .second-card {
+  .first-card,
+  .second-card {
     text-align: center;
   }
-  
-  .first-card, .second-card{
+
+  .first-card,
+  .second-card {
     margin: 0;
-    padding: 20px 60px ;
+    padding: 20px 60px;
     margin-bottom: 5px;
   }
 
